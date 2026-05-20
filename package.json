@@ -1,0 +1,12 @@
+{
+  "name": "trade-sentinel-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "build": "node scripts/build.js",
+    "check": "node --check server/index.js && node --check src/app.js && node --check scripts/build.js"
+  }
+}
