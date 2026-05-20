@@ -103,3 +103,5 @@ h2 { margin: 6px 0 0; font-size: 36px; letter-spacing: -.05em; }
 .sup-zone { fill: rgba(72, 228, 183, .13); }
 .zone-label { fill: #aebbd7; font-size: 12px; font-weight: 700; }
 .muted-copy, .empty { color: var(--muted); line-height: 1.55; padding: 18px; }
+
+.search-row{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px;margin-bottom:12px}.search-row input,.search-row select{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);color:#fff;padding:10px;border-radius:12px}.asset{position:relative}.fav{position:absolute;right:8px;top:8px;font-style:normal}.favorites{margin-top:14px}.chip{margin:4px;padding:7px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:#fff}.pager{display:flex;justify-content:space-between;align-items:center;margin-top:10px}.pager button{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#fff;border-radius:10px;padding:8px 12px}
